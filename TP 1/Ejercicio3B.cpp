@@ -16,7 +16,7 @@ int main()
     cout << "Ingrese c" << endl;
     cin  >> c;
     if(y!=0){
-        c = c + y ;
+        c = c - y ;
     }
     if( ( pow(b,2) - (4*a*c) ) > 0 ){
         x1= ( -b + pow( ( pow(b,2) - (4*a*c) ) , 0.5 ) ) / (2*a) ;
